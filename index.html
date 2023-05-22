@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>web</title>
+<style type="text/css">
+
+body{
+  margin:0;
+  padding:0;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  
+  
+}
+
+  header{
+  padding:20px;
+    background-color:#f3971b;
+   font-size:30px;
+  }
+ nav ul{
+  margin:0;
+  padding:0;
+ 
+ }
+  nav ul li{
+  display:inline;
+  margin-right:50px;
+  
+  }
+   nav ul li a{
+   color: black;
+   text-decoration:none;
+   
+   }
+   
+   
+   .section {
+   height: 400px;
+   padding: 20px;
+   text-align: center;
+   
+   }
+   
+   
+ .home{
+   
+   background-color:#f2f2f2;
+     color:black;
+ }
+ #home:target{
+ background-color:lime;
+ 
+ }
+ 
+ 
+.about{
+ 
+  background-color:#e0e0e0;
+  color:black;
+  text-align:center;
+  padding:50px;
+}
+
+#About:target{
+background-color:lime;
+}
+
+
+
+img{
+height:100px;
+width:100px;
+border-radius:50%;
+object-fit:cover;
+}
+.skill{
+text-align:center;
+padding:100px;
+background-color:#f2f2f2;
+color:black;
+
+}
+
+#Skill:target{
+background-color:lime;
+}
+
+
+.image-grid {
+    
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2,1fr);
+      gap:50px;
+      justify-content:center;
+    }
+.Education{
+   text-align:center;
+   padding:50px;
+   background-color:#e0e0e0;
+   color:black;  
+  
+}
+#Education:target{
+background-color:lime;
+}
+
+
+
+.Education h2{
+   font-size:24px;
+    margin-bottom:10px;
+    padding:10px;
+}
+.Education-list{
+  list-style:none;
+  padding:0;
+}
+.Education-list li{
+margin-bottom:20px;
+}
+.Educalion-list h3{
+  font-size:18px;
+  margin-bottom:15px;
+
+}
+.Education-list p{
+margin:0;
+
+
+}
+
+.Contact {
+  background-color:#f2f2f2;
+ text-align:center;
+ padding:50px;
+ color:black;
+}
+#Contact:target{
+background-color:lime;
+}
+
+.message{
+ background-color:#e0e0e0;
+padding:100px;
+color:black;
+
+}
+
+.textbox{
+  background-color:#f2f2f2;
+  padding:100px;
+  color:black;
+}
+form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+lable{
+  margin-bottom:10px;
+
+}
+
+
+
+
+.form-container {
+      width: 300px;
+    }
+    
+    .form-group {
+      margin-bottom: 10px;
+    }
+    
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .form-group input[type="text"],
+    .form-group textarea {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+
+
+
+.submit-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+
+
+
+</style>
+
+</head>
+<body>
+
+<header>
+<nav>
+<ul>
+<li><a href="#home" >Home</a></li>
+<li><a href="#About" >About</a></li>
+<li><a href="#Skill"  >Skill</a></li>
+<li><a href="#Education" >Education</a></li>
+<li><a href="#Contact" >Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="home">
+<div class="section home">
+<h1>Hello, I am pranab</h1>
+<p>Welcomeing to my portfolio website</p>
+</div>
+</section>
+
+<section id="About">
+<div class="section about">
+<h2>About Me</h2>
+<hr width="100" color="#f3971b">
+<img src="/storage/emulated/0/Pictures/Remini/1678710578797.jpg">
+<p>This is Pranab Kumar Mahalik.
+Iam a student of Btech 1st year in CSE branch, in Srinx College Of Engineering,Balasore,Odisha.
+Currently i am learnig Web Development.I am also interested in Machine learning(ML)and Artificial inteligence(AI)
+</p>
+</div>
+</section>
+
+<section id="Skill">
+<div class="section skill">
+<h2>Skills</h2>
+<hr width="100" color="#f3971b">
+<div class="image-grid">
+<img src="/storage/emulated/0/Pictures/Screenshots/IMG_20230520_222111.jpg" alt="html">
+<img src="/storage/emulated/0/Pictures/Screenshots/IMG_20230520_222126.jpg" alt="css">
+<img src="/storage/emulated/0/Pictures/Screenshots/IMG_20230520_222140.jpg" alt="C">
+<img src="/storage/emulated/0/Pictures/Screenshots/IMG_20230520_222153.jpg" alt="Java">
+</div>
+
+</div>
+</section>
+
+<section id="Education">
+<div class="section Education">
+<h2>Education</h2>
+
+<hr width="100" color="#f3971b">
+
+<ul>
+<li>
+<h3>Schooling</h3>
+<p>Remuna High School</p>
+</li>
+
+<li>
+<h3>12th</h3>
+<p>Remuna Higher Secondary School</p>
+<p>2021 - 2022</p>
+</li>
+
+<li>
+<h3>Btech</h3>
+<p>Computer Science and Engineering</p>
+<p>Srinix College Of Engineering</p>
+<p>2023 - 2026</p>
+</li>
+
+</ul>
+</div>
+</section>
+
+<br>
+<br>
+<br>
+<br>
+
+<section id="Contact">
+<div class="section Contact">
+  <h2>Contact</h2>
+  <hr width="100px" color="#f3971b">
+  <div class="line">
+  <nav>
+  <ul>
+  <h3>Email</h3>
+ <li><a href="#Email" >Pranabmahalik@gmai.com</a></li>
+ <h3>Phone</h3>
+<li> +6370436769</li>
+<h3>Address</h3>
+<li> Remuna,Balasore,Odisha,India</li>
+</ul>
+</nav>
+</div>
+</div>
+
+<section>
+<div class="message">
+<h2>Message</h2>
+<p>Here you can send your message.
+If you have any query then please contact and message us
+we will try to solve your query
+Thank you.
+</p>
+</div>
+
+
+<div class="textbox">
+<form>
+<div class="form-group">
+ <label for="name">NAME:</label>
+ <input type="text" id="name" name ="name" placeholder="Enter your name">
+<br>
+<br>
+<label for="Email">EMAIL:</label>
+<input type="text" id="email" name="email" placeholder="Enter your Email">
+
+<br>
+<br>
+<label for="Phone">PHONE NO:</label>
+<input type="phone" id="phone" name="phone" placeholder="Enter your phone number">
+<br>
+<br>
+
+
+<label for="message">message:</label>
+<input type="text" id="message" name="message">
+<br>
+<br>
+</div>
+<button  class="submit-button" type="submit">Submit</button>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
